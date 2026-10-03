@@ -20,4 +20,4 @@ nmap -sC -sV -oN scan_results.txt <TARGET_IP>
 ## Delivery (Hydra)
 Execute a brute-force attack against the SSH service to generate "Noise" for the SIEM.
 
-![Hydra Attack](./hydra-brute-force.png)
+![Hydra Attack](./hydra-bruteforce.png)

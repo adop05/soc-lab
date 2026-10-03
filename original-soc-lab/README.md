@@ -13,8 +13,8 @@ The lab demonstrates an end-to-end security workflow:
 | Module | Description | Key Tech |
 | :--- | :--- | :--- |
 | [**01-Infrastructure**](./01-infrastructure) | **Network Engineering:** Secure mesh networking, VM provisioning, and segmentation. | Proxmox, Tailscale, Ubuntu |
-| [**02-Offensive Ops**](./02-offensive-ops) | **Red Team Simulation:** Service enumeration and automated dictionary attacks (Hydra). | Kali Linux, Nmap, Hydra |
-| [**03-Defensive Ops**](./03-defensive-ops) | **Blue Team Analysis:** Log ingestion, threat correlation, and forensic investigation. | Wazuh, Docker, Syslog |
+| [**02-Offensive Ops**](./02-offensive) | **Red Team Simulation:** Service enumeration and automated dictionary attacks (Hydra). | Kali Linux, Nmap, Hydra |
+| [**03-Defensive Ops**](./03-defensive) | **Blue Team Analysis:** Log ingestion, threat correlation, and forensic investigation. | Wazuh, Docker, Syslog |
 
 ## Network Topology
 The environment utilizes Tailscale to create an encrypted overlay network, isolating the lab from the physical home LAN.
